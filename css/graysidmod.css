@@ -1,4 +1,5 @@
 /*!
+ * Grayscale + Sid's mods = PURE AWESOMENESS? IDK. GraySidMod. There, happy? This diverged pretty far from the OG Grayscale, but I still want to give credit where credit is due. Therefore, without any further ado:
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -16,6 +17,8 @@ html {
     width: 100%;
     height: 100%;
 }
+
+
 
 h1,
 h2,
@@ -140,6 +143,11 @@ a:focus {
     }
 }
 
+/*--------------intro-------------------*/
+
+
+
+
 .intro {
     display: table;
     width: 100%;
@@ -188,7 +196,7 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #42dca3;
     border-radius: 100%!important;
     font-size: 40px;
     color: #fff;
@@ -257,40 +265,35 @@ a:focus {
     }
 }
 
+/*------------About and Other Normal--------------*/
 .content-section {
     padding-top: 100px;
 }
 
-.download-section {
+
+/*---------------Events--------------------*/
+.events-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    color: #5FDFBA;
+    background: url(../images/2015-2016/EY_Event.JPG) no-repeat center center scroll;
     background-color: #000;
-    -webkit-background-size: cover;
+   /* -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
-#map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
-}
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 120px;
     }
 
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
+    .events-section {
+        height: 100%;
+        padding-top: 0px 0;
+        
     }
 }
 
